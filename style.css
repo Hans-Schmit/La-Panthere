@@ -1091,3 +1091,18 @@ h4 {
 .white-text {
     color: white !important;
 }
+
+@media (max-width: 991px) {
+    .big-link {
+        padding: 15px 0px 15px 0px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .big-link a {
+        padding: 17px 0px 17px 0px;
+    }
+
+    .big-link a.social {
+        padding: 17px 16px 17px 16px;
+    }
+}
